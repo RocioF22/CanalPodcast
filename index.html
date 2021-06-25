@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!--Cabecera del documento-->
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Nombre de la página-->
+    <title>Podcast</title>
+    <!--Hoja de estilos CSS-->
+    <link rel="stylesheet" href="./styles/index.css">
+    <!--Fonts Google-->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <!--Iconos de Font Awesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <!--Menú del documento-->
+    <header>
+        <nav class="navigation">
+            <!--Logo de la página-->
+            <div class="containerSVG">
+                <img src="./assets/logo.svg" alt="LogoBD" class="logoBd">
+            </div><!--Fin del logo-->
+            <input type="checkbox" id="hamburgerCheck" />
+            <label for="hamburgerCheck" class="hamburgerImage"><span>&#9776;</span></label>
+            <ul class="menu">
+                <li><a href="#episodios">EPISODIOS</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                <li><a href="#topicos">TÓPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Primera sección-->
+    <section>
+        <div class="sectionTitle">
+            <h1 class="title intro"> Hello <del>world</del> <br>
+                pale blue dot<span class="point">.</span>
+            </h1>
+            <p class="content">
+                <span class="sectionTitle-contentMobile">
+                    Un podcast que explora el mundo de <br>
+                    la programación.
+                </span>
+                <span class="sectionTitle-contentDesktop">
+                    El portal de podcasts que explora el mundo de la programación y la tecnología.
+                </span>
+                Nuevos episodios, <br>
+                todos los jueves cada 15 días.
+            </p>
+            <a href="#nosotros" class="button"><strong>CONOCÉ MÁS</strong></a>
+        </div> 
+    </section>
+    <!--Segunda sección donde se encuentran los episodios-->
+    <section>
+        <div class="episodes">
+            <div class="gradient">
+                <h2 class="episodesTitle" id="episodios">Episodios
+                </h2>
+                <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
+                    allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+                    allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+                    allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                    allow="encrypted-media"></iframe>
+            </div>
+        </div>
+    </section>
+    <!--Tercera sección donde se encuentra la información de la página-->
+    <section>
+        <div class="info">
+            <img src="./assets/phone.png" alt="Phone" class="img" id="nosotros">
+            <div class="infoText">
+                <h2 class="title">De dónde<br>
+                    venimos
+                </h2>
+                <div class="content">
+                    <p>Our posturings, our imagined self-<br>
+                        importance, the delusion that we<br>
+                        have some privileged position in<br>
+                        the Universe, are challenged by<br>
+                        this point of pale light.
+                    </p>
+                    <p>
+                        Our planet is a lonely speck in<br>
+                        the great enveloping cosmic dark.<br>
+                        In our obscurity, in all this<br>
+                        vastness, there is no hint that<br>
+                        help will come from elsewhere to<br>
+                        save us from ourselves.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Cuarta sección donde se encuentran las imágenes-->
+    <section>
+        <div class="interviews">
+            <h2 class="title guests" id="entrevistas">Invitadas/os<br>
+                estelares
+            </h2>
+            <div class="images">
+                <img src="./assets/grace-hopper.png" alt="GraceHopper" class="img">
+                <img src="./assets/Katie-Bouman.png" alt="KatieBouman" class="img">
+                <img src="./assets/Margaret_Hamilton.png" alt="MargaretHamilton" class="img">
+                <img src="./assets/AnE.R.A.Univac1103computerinthe1950s.png" alt="E.R.AUnivac1103" class="img">
+                <img src="./assets/ComputeroperatorswithanEniac.png" alt="Computer" class="img">
+                <img src="./assets/susan-kare.png" alt="SusanKare" class="img">
+            </div>
+        </div>
+    </section>
+    <!--Quinta sección donde se encuentran los tópicos-->
+    <section>
+        <h2 class="topics" id="topicos">Algunos de<br>
+            nuestros temas
+        </h2>
+        <div class="topicsIcons">
+            <div class="iconSvg">
+                <img src="./assets/icon1.svg" alt="Imagen" class="icon">
+                <h3>Trabajo remoto</h3>
+            </div>
+            <div class="iconSvg">
+                <img src="./assets/icon2.svg" alt="Imagen" class="icon">
+                <h3>Repensando la programación</h3>
+            </div>
+            <div class="iconSvg">
+                <img src="./assets/icon3.svg" alt="Imagen" class="icon">
+                <h3>Bases del código</h3>
+            </div>
+            <div class="iconSvg">
+                <img src="./assets/icon4.svg" alt="Imagen" class="icon">
+                <h3>Seguridad informática</h3>
+            </div>
+        </div>
+    </section>
+    <!--Sexta sección donde se encuentran las novedades-->
+    <section>
+        <div class="gradient2">
+            <h2 class="news">¿Querés las<br>
+                últimas<br>
+                novedades?
+            </h2>
+            <a href="#episodios" class="button listen"><strong>ESCUCHÁ LOS EPISODIOS</strong></a>
+        </div>
+    </section>
+    <!--Séptima sección donde se encuentra el footer-->
+    <section>
+        <div class="footer">
+            <footer>
+                <h6>© 2019— Hello blue pale dot<br></h6>
+                <div class="footerIcons">
+                    <a href="https://www.spotify.com/"><i class="fab fa-spotify"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook icons-right"></i></a>
+                    <a href="https://www.telegram.org/"><i class="fab fa-telegram"></i></a>
+                </div>
+            </footer>
+        </div>
+    </section>
+</body>
+
+</html>
